@@ -108,6 +108,12 @@ Acknowledge it's a time series (double check)
 
 ------
 
-# references
+### references
 
 - [Time Series Analysis with Python Intermediate | SciPy 2016 Tutorial | Aileen Nielsen](https://www.youtube.com/watch?v=JNfxr4BQrLk)
+
+### stuff to look at
+
+- [https://research.fb.com/prophet-forecasting-at-scale/](https://research.fb.com/prophet-forecasting-at-scale/)
+
+- [unplugg API for time series forecasting](http://unplu.gg/test_api.html)
