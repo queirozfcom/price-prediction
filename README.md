@@ -1,6 +1,6 @@
-# teste-b2w
+#teste-b2w
 
-## project structure
+# project structure
 
 
 ----------------
@@ -104,3 +104,10 @@ Acknowledge it's a time series (double check)
 - recurrent neural networks (RNNs), which are neural-networks that take sequence into account
 
   - e.g. LSTM?
+
+
+------
+
+# references
+
+- [Time Series Analysis with Python Intermediate | SciPy 2016 Tutorial | Aileen Nielsen](https://www.youtube.com/watch?v=JNfxr4BQrLk)
