@@ -3,6 +3,10 @@
 # project structure
 
 
+# CAREFUL:
+
+revenue = unit price * units sold
+
 ----------------
 
 # todos
@@ -14,7 +18,7 @@
 
 - need to present **both** past behavious as well as current trends and predictions for the future.
 
-#### exploratory analysis
+#### exploratory data analysis
 
 - what are the main dataset statistics? 
 
@@ -31,6 +35,10 @@
 - histogram per revenue bucket (buckets of 10,100, 1000?)
 
   - is the data balanced?
+
+ - outliers?
+
+ - bad data?
 
 ## process
 
