@@ -54,34 +54,13 @@ revenue = unit price * units sold
 
 # todos
 
+> are all data collected at regular intervals????
 
 ## presentation
 
 - maybe two presentations, one for executives, one for technical audiences
 
 - need to present **both** past behavious as well as current trends and predictions for the future.
-
-#### exploratory data analysis
-
-- what are the main dataset statistics? 
-
-- earliest and most recent data 
-
-- histogram per week/month/day
-
-  - is the data balanced?
-
-- histogram per pay type, per competitor
-
-  - is the data balanced?
-
-- histogram per revenue bucket (buckets of 10,100, 1000?)
-
-  - is the data balanced?
-
- - outliers?
-
- - bad data?
 
 ## process
 
@@ -90,7 +69,17 @@ The first I felt I needed to do was to look at current frameworks and articles a
 
 #### first approach
 
-The first approach was very naïve, it was just linear regression because sometimes really simple models give good results and are easy and cheap to build (also, you can give some kind of early information to decision-makers while you are still working on a more sophisticated model)
+The first approach was very naïve, it was just linear regression because sometimes really simple models give good results and are easy and cheap to build (also, you can give some kind of early information to decision-makers while you are still working on a more sophisticated model).
+
+Using **just sales data**, transform the dataset into a new dataset where each pair (X_i, y_i) is the following:
+
+X_i = 3 (or 4, or 5) prices for 3 (or 4, or 5) sequential days (for a single product)
+y_i = price for the next day
+
+So we learn a very simple model that estimates the next price (for a single product)
+
+**Assumptions**
+
 
 #### second approach
 
