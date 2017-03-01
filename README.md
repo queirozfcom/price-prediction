@@ -80,6 +80,8 @@ So we learn a very simple model that estimates the next price (for a single prod
 
 **Assumptions**
 
+- the model is stationary, i.e. the target function does not change over time
+
 
 #### second approach
 
