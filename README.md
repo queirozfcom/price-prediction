@@ -85,7 +85,7 @@ So we learn a very simple model that estimates the next price (for a single prod
 
 #### second approach
 
-Take sequences of 5 samples (same competitor, same pay time) and try to predict the 5th point with the 4 previous points.
+the second model is the same, but using competitor information such as competitor price as features (for all competitors) for the same product and also a bit for the payment type?
 
 #### targets
 
