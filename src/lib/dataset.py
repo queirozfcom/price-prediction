@@ -12,7 +12,7 @@ def make_Xy_simple(df):
         y.append(nparr[-1])
         X.append(nparr[0:-1].tolist())
     
-    return np.array(X),np.array(y)
+    return (np.array(X),np.array(y))
 
 
 # takes a pandas dataframe and returns a X matrix (input) and a y vector (outputs)
